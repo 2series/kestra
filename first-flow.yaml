@@ -1,0 +1,26 @@
+# id: getting_started
+# namespace: company.family-co
+# tasks:
+#   - id: hello_world
+#     type: io.kestra.plugin.core.log.Log
+#     message: Hello World!
+
+
+id: getting_started
+namespace: company.family-co
+
+description: |
+  # Getting Started
+  Let's `write` some **markdown** - [first flow](https://t.ly/Vemr0) 🚀
+
+labels:
+  owner: rihad.variaawa
+  project: never-gonna-give-you-up
+
+tasks:
+  - id: hello_world
+    type: io.kestra.plugin.core.log.Log
+    message: Hello World!
+    description: |
+      ## About this task
+      This task will print "Hello World!" to the logs.
